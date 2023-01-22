@@ -52,13 +52,27 @@ li {
 }
 
 .search_bar{
-    width: 450px;
-    line-height: 30px;
+    border: 1px solid lightgray;
+    outline: none;
+    width: 550px;
+    line-height: 40px;
+    border-radius: 20px;
+}
+
+.search_bar > input{
+    padding-left: 15px;
 }
 
 .botoes{
     text-align: center;
     padding-top: 30px;
+}
+
+.botoes > input{
+    border: none;
+    outline: none;
+    padding: 7px;
+    border-radius: 3px;
 }
 
 footer{
