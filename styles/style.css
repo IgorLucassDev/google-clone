@@ -97,3 +97,25 @@ footer ul li {
 .right_footer{
     float: right;
 }
+
+@media only screen and (max-width: 600px)
+{
+    .google > img{
+        width: 250px;
+        padding-top: 70px;
+    }
+
+    .search_bar{
+        width: 320px;
+        line-height: 40px;
+    }
+
+    .nav_bar{
+        visibility: hidden;
+    }
+
+    footer{
+        visibility: hidden;
+    }
+
+}
